@@ -90,9 +90,11 @@ func TestField(t *testing.T) {
 	// To()
 	//
 
-	dst := &Dst{}
+	dst := &Dst{
+		Int: 2,
+	}
 	assert.Nil(t, deepcopier.Copy(src).To(dst))
-	assert.Equal(t, src.Int, dst.Int)
+	assert.Equal(t, 2, dst.Int)
 	assert.Equal(t, src.IntPtr, dst.IntPtr)
 	assert.Equal(t, src.Slice, dst.Slice)
 	assert.Equal(t, src.SlicePtr, dst.SlicePtr)

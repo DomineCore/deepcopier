@@ -119,6 +119,10 @@ func process(dst interface{}, src interface{}, args ...Options) error {
 			continue
 		}
 
+		if !reflect.Value.IsZero(dstFieldValue) {
+			continue
+		}
+
 		// Force option for empty interfaces and nullable types
 		_, force := tagOptions[ForceOptionName]
 
