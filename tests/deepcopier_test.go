@@ -5,11 +5,11 @@ import (
 	"testing"
 	"time"
 
+	"github.com/DomineCore/deepcopier"
 	"github.com/guregu/null"
 	"github.com/lib/pq"
 	uuid "github.com/satori/go.uuid"
 	assert "github.com/stretchr/testify/require"
-	"github.com/ulule/deepcopier"
 )
 
 func TestField(t *testing.T) {

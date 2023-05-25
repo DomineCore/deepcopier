@@ -22,7 +22,7 @@ so run this command in your shell:
 
 ::
 
-    $ go get github.com/ulule/deepcopier
+    $ go get github.com/DomineCore/deepcopier
 
 You are now ready to use this library.
 
@@ -358,8 +358,8 @@ Contributing to deepcopier
 --------------------------
 
 * Ping us on twitter `@oibafsellig <https://twitter.com/oibafsellig>`_, `@thoas <https://twitter.com/thoas>`_
-* Fork the `project <https://github.com/ulule/deepcopier>`_
-* Fix `bugs <https://github.com/ulule/deepcopier/issues>`_
+* Fork the `project <https://github.com/DomineCore/deepcopier>`_
+* Fix `bugs <https://github.com/DomineCore/deepcopier/issues>`_
 
 Don't hesitate ;)
 
@@ -371,4 +371,4 @@ Don't hesitate ;)
 .. _postgresql: http://www.postgresql.org/
 .. _go-json-rest: https://github.com/ant0ine/go-json-rest
 .. _gorm: https://github.com/jinzhu/gorm
-.. _deepcopier: https://github.com/ulule/deepcopier
+.. _deepcopier: https://github.com/DomineCore/deepcopier

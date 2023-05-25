@@ -1,4 +1,4 @@
-module github.com/ulule/deepcopier/tests
+module github.com/DomineCore/deepcopier/tests
 
 go 1.14
 
@@ -7,7 +7,7 @@ require (
 	github.com/lib/pq v1.4.0
 	github.com/satori/go.uuid v1.2.0
 	github.com/stretchr/testify v1.5.1
-	github.com/ulule/deepcopier v0.0.0
+	github.com/DomineCore/deepcopier v0.0.0
 )
 
-replace github.com/ulule/deepcopier => ../
+replace github.com/DomineCore/deepcopier => ../

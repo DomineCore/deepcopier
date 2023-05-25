@@ -7,7 +7,7 @@ This package is meant to make copying of structs to/from others structs a bit ea
 ## Installation
 
 ```bash
-go get -u github.com/ulule/deepcopier
+go get -u github.com/DomineCore/deepcopier
 ```
 
 ## Usage
@@ -72,7 +72,7 @@ package main
 import (
     "fmt"
  
-    "github.com/ulule/deepcopier"
+    "github.com/DomineCore/deepcopier"
 )
 
 // Model
@@ -117,13 +117,13 @@ func main() {
 
 Looking for more information about the usage?
 
-We wrote [an introduction article](https://github.com/ulule/deepcopier/blob/master/examples/rest-usage/README.rst).
+We wrote [an introduction article](https://github.com/DomineCore/deepcopier/blob/master/examples/rest-usage/README.rst).
 Have a look and feel free to give us your feedback.
 
 ## Contributing
 
 * Ping us on twitter [@oibafsellig](https://twitter.com/oibafsellig), [@thoas](https://twitter.com/thoas)
-* Fork the [project](https://github.com/ulule/deepcopier)
-* Help us improving and fixing [issues](https://github.com/ulule/deepcopier/issues)
+* Fork the [project](https://github.com/DomineCore/deepcopier)
+* Help us improving and fixing [issues](https://github.com/DomineCore/deepcopier/issues)
 
 Don't hesitate ;)

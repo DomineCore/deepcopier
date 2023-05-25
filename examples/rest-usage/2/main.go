@@ -2,10 +2,10 @@ package main
 
 import (
 	"fmt"
+	"github.com/DomineCore/deepcopier"
 	"github.com/ant0ine/go-json-rest/rest"
 	"github.com/jinzhu/gorm"
 	_ "github.com/lib/pq"
-	"github.com/ulule/deepcopier"
 	"log"
 	"net/http"
 	"os"

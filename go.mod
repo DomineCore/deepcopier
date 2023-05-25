@@ -1,3 +1,3 @@
-module github.com/ulule/deepcopier
+module github.com/DomineCore/deepcopier
 
 go 1.14
